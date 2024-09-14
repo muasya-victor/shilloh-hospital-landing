@@ -183,6 +183,25 @@ a,
   text-decoration: none;
 }
 
+.button-custom {
+  background-color: #21529a;
+  border-radius:5px;
+  color: #fff;
+  border:none !important;
+  padding: 8px;
+}
+
+.image-custom {
+  height: 300px;
+  width: auto;
+  border-radius: 2%;
+  border: 0.1px solid #edebeb;
+}
+
+.button-custom:hover{
+  background-color: #0e274a !important;
+}
+
 a:focus,
 a:hover {
   color: var(--primary-color);
