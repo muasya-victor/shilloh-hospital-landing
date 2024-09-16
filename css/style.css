@@ -184,17 +184,20 @@ a,
 }
 
 .button-custom {
-  background-color: #21529a;
-  border-radius:5px;
+  background-color: var(--primary-color);
+  border-radius:1px;
   color: #fff;
   border:none !important;
   padding: 8px;
 }
 
+.hidden {
+  display: none;
+}
+
 .image-custom {
   height: 300px;
   width: auto;
-  border-radius: 2%;
   border: 0.1px solid #edebeb;
 }
 

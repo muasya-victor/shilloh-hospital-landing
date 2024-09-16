@@ -1468,6 +1468,12 @@ Design and Developed by: PeacefulQode
   header#pq-header.pq-header-style-4 .pq-bottom-header .navbar {
     background: var(--white-color);
   }
+  .image-custom {
+    height: auto;
+    width: 100%;
+    border-radius: 1%;
+    border: 0.1px solid #edebeb;
+  }
 
   header#pq-header.pq-header-style-4 .pq-menu-search-block a {
     color: var(--dark-color);
@@ -1683,11 +1689,25 @@ Design and Developed by: PeacefulQode
   .about-us .pq-pt-45 {
     padding-top: 0;
   }
+
+  .image-custom {
+    height: auto;
+    width: 200px;
+    border-radius: 1%;
+    border: 0.1px solid #edebeb;
+  }
 }
 
 @media (max-width: 979px) {
   header#pq-header .pq-top-header a.pq-header-contact {
     margin-right: 0;
+  }
+
+  .image-custom {
+    height: auto;
+    width: 100%;
+    border-radius: 1%;
+    border: 0.1px solid #edebeb;
   }
 
   .pq-breadcrumb-title h2 {
