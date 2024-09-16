@@ -188,15 +188,15 @@
             <button id="btn-team" class="button-custom">Team</button>
             <button id="btn-surgery" class="button-custom">Surgeries</button>
             <button id="btn-equipment" class="button-custom">Equipment</button>
+            <button id="btn-event" class="button-custom">Events</button>
         </div>
 
         <!-- Gallery images start -->
-        <div class="gallery" style=" flex-direction: row; flex-wrap: wrap; gap: 4px; margin-top:1rem;">
+        <div class="gallery" style=" flex-direction: row; flex-wrap: wrap; gap: 1rem; margin-top:1rem;">
             <img class="image-custom team" src="images/ibrahim.png" alt="shiloh hospital">
-            <img class="image-custom surgery" src="images/surgery_1.jpg" alt="shiloh hospital">
-            <img class="image-custom surgery" src="images/surgery_2.jpg" alt="shiloh hospital">
-            <img class="image-custom equipment" src="images/equipment_1.jpg" alt="shiloh hospital">
-            <img class="image-custom equipment" src="images/equipment_2.jpg" alt="shiloh hospital">
+            <img class="image-custom surgery" src="images/checkup.png" alt="shiloh hospital">
+            <img class="image-custom event" src="images/event_1.png" alt="shiloh hospital">
+            <img class="image-custom event" src="images/event_2.png" alt="shiloh hospital">
         </div>
         <!-- Gallery images end -->
     </div>
@@ -311,6 +311,10 @@
 
     document.getElementById('btn-team').addEventListener('click', function() {
         showImages('team'); // Show only team images
+    });
+
+    document.getElementById('btn-event').addEventListener('click', function() {
+        showImages('event'); // Show only team images
     });
 
     document.getElementById('btn-surgery').addEventListener('click', function() {
