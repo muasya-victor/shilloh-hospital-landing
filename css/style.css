@@ -185,9 +185,9 @@ a,
 
 .button-custom {
   background-color: var(--primary-color);
-  border-radius:1px;
+  border-radius: 1px;
   color: #fff;
-  border:none !important;
+  border: none !important;
   padding: 8px;
   margin: 2px !important;
 }
@@ -202,7 +202,7 @@ a,
   margin: 2px !important;
 }
 
-.button-custom:hover{
+.button-custom:hover {
   background-color: #0e274a !important;
 }
 
@@ -2890,9 +2890,10 @@ Breadcrumb
   .breadcrumb
   .breadcrumb-item
   + .breadcrumb-item::before {
-  content: "\f125";
+  content: "\f054"; /* Font Awesome icon for "angle-right" */
   font-size: 12px;
-  font-family: "Ionicons";
+  font-family: "FontAwesome"; /* Use the Font Awesome font family */
+  font-weight: 900;
   padding-right: 15px;
   color: var(--secondary-color);
   float: none;
